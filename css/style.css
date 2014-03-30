@@ -1,0 +1,161 @@
+body,div,p,ul,li,table,tr,td,h1,h2,img{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:#f1efef url(../images/body_bg.gif) repeat-x;
+	font-family:"Microsoft YaHei","SimHei",Arial;
+	color:black;
+	font-size: 20px;
+	overflow-x: hidden;
+}
+a:hover{
+	cursor: pointer;
+}
+
+div#header{
+	position:relative;
+	width:960px;
+	height: 200px;
+	margin: 0 auto;
+	padding-bottom:60px;
+	color:red;
+}
+div#header h1{
+	position: absolute;
+	left:320px;
+	width: 390px;
+	height: 200px;
+	background: transparent url(../images/logo.jpg) no-repeat;
+	text-indent: -9999px;
+}
+div#header blockquote{
+	position: absolute;
+	top:-9999px;
+}
+
+
+div#content{
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+	height: auto;
+
+}
+
+ul#nav{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 170px;
+	list-style-type: none;
+}
+ul#nav li{
+	height: 46px;
+	background: url(../images/nav_bg.png) 0 -46px repeat-x;
+	margin-bottom: 8px;
+}
+ul#nav a,ul#nav strong{
+	display:block;
+	height:46px;
+	width:170px;
+	text-decoration:none;
+	font-weight:normal;
+}
+ul#nav a:link,ul#nav a:visited{
+	background: url(../images/nav_bg.png)  no-repeat ;
+}
+ul#nav a:link strong,ul#nav a:visited strong{
+	background: url(../images/nav_bg.png)  right -92px no-repeat;
+}
+ul#nav a:hover,ul#nav a:active{
+	background: url(../images/nav_bg.png) 0 -46px no-repeat;
+}
+ul#nav a:hover strong,ul#nav a:active strong{
+	background: url(../images/nav_bg.png) right -138px no-repeat;
+}
+ul#nav span{
+	font-size:24px;
+	color:white;
+	display:block;
+	height:46px;
+	line-height:46px;
+	margin-left:30px;
+	
+}
+
+
+#main{
+	position: relative;
+	width: 740px;
+	left: 220px;
+	font-size:18px;
+}
+#main h2{
+	color:#4B4B4B;
+	font-size:24px;
+	font-weight: normal;
+	width:150px;
+	border-bottom:#4B4B4B solid 3px;
+	padding-bottom:0px;
+	margin-bottom:14px;
+}
+#main .item{
+	border-bottom:#F29B7C solid 3px;
+	margin-bottom:22px;
+	padding-bottom:30px;
+}
+#main ul{
+	list-style-type:none;
+	margin-left:50px;
+}
+#main ul a{
+	color:black;
+	
+}
+
+#main ul li{
+	margin-top:8px;
+}
+#personInfo img{
+	position:absolute;
+	left: 500px;
+	top: 60px;
+	width: 100px;
+	height: 144px;
+}
+#main p{
+	margin-left: 50px;
+	line-height: 28px;
+	text-indent: 2em;
+}
+
+#footer{	
+	background-color: black;
+	width: 960px;
+	height: 80px;
+	height: 70px;
+	margin: 0 auto;
+}
+#footer p{
+	position:relative;
+	top:30px;
+	left:440px;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
